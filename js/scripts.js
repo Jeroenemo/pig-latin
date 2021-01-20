@@ -15,12 +15,11 @@
 
 function pigLatin(word) {
   const vowels = ['a', 'e', 'i', 'o', 'u'];
-  const letterToCheck = word[0];
-  if (vowels.includes(letterToCheck)) {
+  if (vowels.includes(word[0])) {
     return word + "way"
   } else {
     return word
   }
 }
 
-console.log((pigLatin("stupid")))
+console.log(pigLatin("away"))
